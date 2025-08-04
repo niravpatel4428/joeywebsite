@@ -6,7 +6,7 @@ const CtcForm = () => {
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="text-center max-w-[525px] lg:max-w-3xl mx-auto mb-10 md:mb-14 xl:mb-12">
           <h1 className="text-foreground text-32 sm:text-4xl md:text-5xl lg:text-[54px] xl:text-64 font-semibold leading-110 -tracking-medium">
-            Have a project idea? Let's discuss it together.
+            Have a project idea? Let&apos;s discuss it together.
           </h1>
         </div>
 
