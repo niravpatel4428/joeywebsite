@@ -20,7 +20,7 @@ const navItems = [
   },
   {
     label: "Contact",
-    href: "/",
+    href: "/contact",
   },
 ];
 

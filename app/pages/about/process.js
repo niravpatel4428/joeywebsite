@@ -28,7 +28,7 @@ const Process = () => {
     <section className="relative pt-7 md:pt-10 lg:pt-16 xl:pt-28 pb-5 md:pb-0 xl:pb-40">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="mb-8 md:mb-10 xl:mb-28">
-          <h3 className="text-foreground text-[32px] xl:text-5xl font-semibold leading-tight tracking-sharp">
+          <h3 className="text-foreground text-32 xl:text-5xl font-semibold leading-tight tracking-sharp">
             Design Process
           </h3>
         </div>

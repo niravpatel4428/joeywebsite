@@ -19,6 +19,7 @@ module.exports = {
         grotesk: ["var(--font-familjen-grotesk)", "sans-serif"],
       },
       fontSize: {
+        32: "32px",
         64: "64px",
         79: "79px",
         84: "84px",
@@ -39,6 +40,7 @@ module.exports = {
         90: "90%",
         110: "110%",
         140: "140%",
+        170: "172%",
       },
       boxShadow: {
         'custom': '0 12px 20px 0 rgba(0, 0, 0, 0.04);',

@@ -28,7 +28,7 @@ const Collaborate = () => {
     <section className="relative pt-5 pb-7 md:pt-3 md:pb-10 xl:pt-16 xl:pb-28">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="mb-10 lg:mb-14 xl:mb-16">
-          <h2 className="text-foreground text-[32px] sm:text-5xl md:text-84 font-semibold leading-tight tracking-[-0.84px]">
+          <h2 className="text-foreground text-32 sm:text-5xl md:text-84 font-semibold leading-tight tracking-[-0.84px]">
             Why Collaborate <br />
             with me?
           </h2>

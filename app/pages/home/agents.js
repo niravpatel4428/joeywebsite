@@ -13,7 +13,7 @@ const Agents = () => {
         <div className="relative flex justify-between items-end mb-12 xl:mb-10">
           <div className="w-full max-w-sm">
             <div className="mb-4 sm:mb-3 max-sm:pr-24">
-              <h3 className="text-foreground text-2xl md:text-[32px] xl:text-5xl font-semibold leading-tight tracking-sharp">
+              <h3 className="text-foreground text-2xl md:text-32 xl:text-5xl font-semibold leading-tight tracking-sharp">
                 Agents
               </h3>
             </div>
