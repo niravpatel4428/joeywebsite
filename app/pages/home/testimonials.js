@@ -14,7 +14,7 @@ const Testimonials = () => {
             <p className="text-foreground text-sm md:text-xl xl:text-5xl font-medium leading-tight tracking-sharp">
               “Joey is a remarkable artist. He grasps abstract ideas and
               transforms them into exceptional visuals. Throughout the years,
-              I've witnessed him produce everything from small symbols to
+              I&apos;ve witnessed him produce everything from small symbols to
               comprehensive adaptive web pages. He has crafted clothing items
               like tees and caps, promotional products, and professional
               literature.”

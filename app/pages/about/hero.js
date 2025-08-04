@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="w-full max-w-[860px] -mr-16 sm:pt-6 md:pt-20 lg:pt-0">
             <h1 className="relative z-10 text-foreground text-5xl sm:text-7xl md:text-[84px] lg:text-[176px] xl:text-[227px] font-semibold leading-none tracking-[-0.84px] lg:tracking-[-4.54px]">
               Hey, <br />
-              I’m Joey
+              I&apos;m Joey
             </h1>
             <div className="block md:hidden mt-8">
               <CtcBtn text="hello@joey.co" mailId="hello@joey.co" cName="!py-2 !px-3" sName="!text-sm" />
@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="max-lg:mt-6 lg:-mt-32 xl:-mt-40">
           <div className="flex flex-col gap-10 w-full lg:max-w-xl xl:max-w-[700px]">
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
-              Embarking on a journey of growth and education, I've spent 9 years
+              Embarking on a journey of growth and education, I&apos;ve spent 9 years
               collaborating remotely alongside innovative individuals from
               agencies, startups, and small companies on myriad design ventures.
             </p>

@@ -17,7 +17,7 @@ const Experties = () => {
               </h4>
             </div>
             <p className="text-foreground text-sm md:text-base lg:text-lg xl:text-xl font-medium leading-140 -tracking-low">
-              Collaborating closely, we'll develop an impactful brand identity
+              Collaborating closely, we&apos;ll develop an impactful brand identity
               for your emerging enterprise. The full spectrum of brand analysis
               and design is addressed, culminating in a visually stunning,
               evergreen logo concept.

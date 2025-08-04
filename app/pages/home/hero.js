@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="col-span-5 lg:col-span-7">
             <div className="">
               <p className="text-fore text-xl xl:text-2xl font-semibold leading-tight tracking-low mb-2">
-                Let’s Talk
+                Let&apos;s Talk
               </p>
               <Link
                 href="mailto:hello@joey.co"
@@ -54,13 +54,13 @@ const Hero = () => {
           <div className="col-span-7 lg:col-span-5">
             <div className="hidden lg:block">
               <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">
-                Hello, I'm Joey, an online product designer focusing on brand
+                Hello, I&apos;m Joey, an online product designer focusing on brand
                 identity, advertising, and no-code instruments.
               </p>
             </div>
             <div className="block lg:hidden">
               <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">
-                Hey there, I'm Joey, a digital product designer specializing in
+                Hey there, I&apos;m Joey, a digital product designer specializing in
                 branding, marketing, and no-code tools.
               </p>
             </div>
