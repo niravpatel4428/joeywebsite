@@ -75,9 +75,7 @@ const Projects = () => {
             <div className="col-span-12 md:col-span-8 lg:col-span-6">
               <div className="">
                 <p className="text-foreground text-base lg:text-lg xl:text-xl font-medium tracking-low">
-                  I&apos;m dedicated to assisting individuals and companies in
-                  crafting memorable online interactions, utilizing my skills in
-                  user experience, Webflow, and internet marketing.
+                  Browse our complete collection of specialized AI agents, each designed for specific business functions. Deploy any agent instantly through our API with enterprise-grade security and reliability.
                 </p>
               </div>
             </div>

@@ -9,7 +9,7 @@ export const spaceGroteskFont = Space_Grotesk({
   display: "swap",
 });
 export const metadata = {
-  title: "Agentics Cloud",
+  title: "Alti Cloud",
   description: "Agent Layer Task Intelligence",
 };
 

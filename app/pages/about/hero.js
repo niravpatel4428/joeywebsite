@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="w-full max-w-[860px] -mr-16 sm:pt-6 md:pt-20 lg:pt-0">
             <h1 className="relative z-10 text-foreground text-5xl sm:text-7xl md:text-[92px] lg:text-[125px] xl:text-[160px] font-semibold !leading-snug tracking-[-0.84px] lg:tracking-[-4.54px]">
               Hey, <br />
-              I&apos;m Joey
+              I&apos;m Alti
             </h1>
             <div className="block md:hidden mt-8">
               <CtcBtn

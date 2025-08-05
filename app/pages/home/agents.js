@@ -27,16 +27,14 @@ const Agents = () => {
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         {/* title and description */}
         <div className="relative flex justify-between items-end mb-12 xl:mb-10">
-          <div className="w-full max-w-sm">
+          <div className="w-full max-w-sm md:max-w-md lg:max-w-3xl">
             <div className="mb-4 sm:mb-3 max-sm:pr-24">
               <h2 className="text-foreground text-2xl md:text-32 xl:text-5xl font-semibold leading-tight tracking-sharp">
                 Agents
               </h2>
             </div>
             <p className="text-foreground text-sm sm:text-base xl:text-xl font-medium leading-140 -tracking-low">
-              As a seasoned creator of contemporary, user-friendly web designs
-              and digital solutions, I aim to assist you in constructing the
-              brand of your fantasies.
+              Access a curated collection of powerful AI agents through our secure private cloud platform. Each agent is pre configured and ready to deploy via simple API integration, backed by enterprise grade security and guaranteed uptime for mission critical applications.
             </p>
           </div>
 

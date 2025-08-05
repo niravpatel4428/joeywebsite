@@ -30,6 +30,7 @@ const CtcForm = () => {
               name="project"
               id="project"
               rows="5"
+              
               placeholder="Tell us more about your project "
               className="p-5 bg-grayLight rounded-2xl text-base leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
             ></textarea>

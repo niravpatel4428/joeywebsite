@@ -22,10 +22,15 @@ body {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: -0.14px;
+
 }
 
 .container {
   width: 100%;
   max-width: 1256px;
   padding: 0 40px;
+}
+
+textarea {
+  resize: none;
 }

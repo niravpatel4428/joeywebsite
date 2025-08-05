@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col justify-center text-center gap-12 md:gap-7 xl:gap-12">
             <div>
               <h6 className="text-foreground text-5xl md:text-79 xl:text-140 font-semibold tracking-thin leading-110">
-                Let’s talk!
+                Start building
               </h6>
             </div>
             <div className="">
