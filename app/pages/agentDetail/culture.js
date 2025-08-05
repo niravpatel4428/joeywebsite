@@ -102,7 +102,7 @@ const Culture = () => {
             <div className="col-span-12 sm:col-span-3 lg:col-span-3">
                 <div className="h-full flex flex-col justify-center">
                     <p className="text-foreground text-xl font-bold leading-140">Crint</p>
-                    <Link href="/" className="group flex items-center gap-1 hover:underline">
+                    <Link href="/website" className="group flex items-center gap-1 hover:underline">
                         <span className="text-foreground text-xl font-medium leading-140">Branding</span>
                         <Image src={arrow} alt="arrow" className="w-3 -rotate-45 group-hover:rotate-0 transition-all duration-300" />
                     </Link>
