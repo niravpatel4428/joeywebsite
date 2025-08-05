@@ -16,8 +16,8 @@ const Hero = () => {
     <section className="relative pb-4 md:pb-10 xl:pb-14 pt-14 xl:pt-12">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="relative">
-          <h1 className="text-foreground text-5xl sm:text-7xl md:text-[96px] lg:text-[127px] xl:text-[165px] font-semibold leading-none tracking-[-4.54px] max-md:text-center">
-            Private Cloud for AI Agents
+          <h1 className="text-foreground text-5xl sm:text-7xl md:text-[95px] lg:text-[123px] xl:text-[160px] font-semibold leading-none tracking-[-4.54px] max-md:text-center">
+            Private Cloud for AI Agents API
           </h1>
 
           <div className="relative max-lg:mt-4 max-lg:flex max-lg:justify-end lg:absolute bottom-1 lg:bottom-3 xl:bottom-4 right-0  lg:-right-3 xl:-right-3">
