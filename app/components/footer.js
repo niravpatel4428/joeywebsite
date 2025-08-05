@@ -16,11 +16,11 @@ const Footer = () => {
           <div className="flex flex-col justify-center text-center gap-12 md:gap-7 xl:gap-12">
             <div>
               <h6 className="text-foreground text-5xl md:text-79 xl:text-140 font-semibold tracking-thin leading-110">
-                Start building
+                Let's build!
               </h6>
             </div>
             <div className="">
-              <CtcBtn text="hello@joey.co" mailId="hello@joey.co" />
+              <CtcBtn text="Start building" hrefLink="/" />
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 max-sm:gap-6">

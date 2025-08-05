@@ -3,11 +3,11 @@ import Link from "next/link";
 import arrow from "@/public/img/ctcArrow.svg";
 import Image from "next/image";
 
-const CtcBtn = ({ text, mailId, cName, sName }) => {
+const CtcBtn = ({ text, mailId, cName, hrefLink, sName }) => {
   return (
     <>
       <Link
-        href={`mailto:${mailId}`}
+        href={hrefLink}
         className={`group bg-foreground py-6 md:py-4 xl:py-8 px-12 md:px-7 xl:px-12 rounded-full inline-block hover:bg-background border border-foreground transition-all duration-300 ${cName}`}
       >
         <span
@@ -15,11 +15,11 @@ const CtcBtn = ({ text, mailId, cName, sName }) => {
         >
           {text}
         </span>
-        <Image
+        {/* <Image
           src={arrow}
           alt="icon"
           className="size-4 xl:size-5 inline-block group-hover:invert xl:-mt-1.5"
-        />
+        /> */}
       </Link>
     </>
   );

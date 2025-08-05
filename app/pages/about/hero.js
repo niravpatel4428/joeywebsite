@@ -18,8 +18,8 @@ const Hero = () => {
             </h1>
             <div className="block md:hidden mt-8">
               <CtcBtn
-                text="hello@joey.co"
-                mailId="hello@joey.co"
+                text="Start building"
+                hrefLink="/"
                 cName="!py-2 !px-3"
                 sName="!text-sm"
               />
