@@ -16,14 +16,14 @@ const Hero = () => {
     <section className="relative pb-4 md:pb-10 xl:pb-14 pt-14 xl:pt-12">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="relative mb-16">
-          <h1 className="text-foreground text-5xl sm:text-7xl md:text-[84px] lg:text-[180px] xl:text-[227px] font-semibold leading-none tracking-[-4.54px] max-md:text-center">
+          <h1 className="text-foreground text-5xl sm:text-7xl md:text-[92px] lg:text-[125px] xl:text-[160px] font-semibold leading-none tracking-[-4.54px] max-md:text-center">
             Private Cloud for AI Agents
           </h1>
 
-          <div className="relative max-md:mt-4 max-md:flex max-md:justify-end md:absolute bottom-1 lg:bottom-7 xl:bottom-10 right-0 xl:-right-3">
+          <div className="relative max-md:mt-4 max-md:flex max-md:justify-end md:absolute bottom-1 lg:bottom-3 xl:bottom-7 right-0 xl:-right-3">
             <button
               onClick={handleScroll}
-              className="bg-[#F9F9F9] rounded-full p-2 sm:p-4 md:p-8 inline-flex flex-row gap-2 group hover:bg-foreground transition-all duration-300"
+              className="bg-[#F9F9F9] rounded-full p-2 sm:p-4 md:p-6 lg:p-8 inline-flex flex-row gap-2 group hover:bg-foreground transition-all duration-300"
             >
               <span className="uppercase text-sm sm:text-base md:text-xl font-semibold leading-140 -tracking-low group-hover:text-background">
                 SCROLL DOWN

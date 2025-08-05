@@ -97,6 +97,15 @@ const Projects = () => {
             ))}
           </div>
         </div>
+        {/* btn */}
+        <div className="mt-10 md:mt-12 xl:mt-16 block">
+          <Link
+            href="/"
+            className="w-fit block mx-auto text-foreground text-xl font-semibold tracking-low !leading-none py-6 px-20 rounded-full bg-[#F9F9F9] hover:bg-foreground hover:text-background transition-all duration-300"
+          >
+            Load More
+          </Link>
+        </div>
       </div>
     </section>
   );

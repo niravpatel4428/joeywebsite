@@ -7,11 +7,11 @@ import joeyImg from "@/public/img/joeyImg.png";
 import CtcBtn from "@/app/components/ctcBtn";
 const Hero = () => {
   return (
-    <section className="relative pt-10 pb-5 md:pb-3 lg:pb-14">
+    <section className="relative pt-10 pb-8 md:pb-10 lg:pb-14">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="flex ">
           <div className="w-full max-w-[860px] -mr-16 sm:pt-6 md:pt-20 lg:pt-0">
-            <h1 className="relative z-10 text-foreground text-5xl sm:text-7xl md:text-[84px] lg:text-[176px] xl:text-[227px] font-semibold leading-none tracking-[-0.84px] lg:tracking-[-4.54px]">
+            <h1 className="relative z-10 text-foreground text-5xl sm:text-7xl md:text-[92px] lg:text-[125px] xl:text-[160px] font-semibold !leading-snug tracking-[-0.84px] lg:tracking-[-4.54px]">
               Hey, <br />
               I&apos;m Joey
             </h1>
@@ -42,7 +42,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="max-lg:mt-6 lg:-mt-32 xl:-mt-40">
+        <div className="max-lg:mt-6 lg:-mt-32 xl:-mt-48">
           <div className="flex flex-col gap-10 w-full lg:max-w-xl xl:max-w-[700px]">
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
               Embarking on a journey of growth and education, I&apos;ve spent 9 years
