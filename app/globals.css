@@ -5,11 +5,13 @@
 :root {
   --background: #fff;
   --foreground: #000;
+  --grayLight: #F9F9F9;
 }
 
 .dark {
   --background: #000;
   --foreground: #fff;
+  --grayLight: #141414;
 }
 
 body {

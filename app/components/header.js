@@ -70,7 +70,7 @@ const Header = () => {
             <div className="bg-foreground sm:w-fit sm:rounded-full shadow-custom p-5 sm:p-[5px]">
               <ul className="flex flex-col sm:flex-row items-center gap-4">
                 {navItems.map((item, index) => (
-                  <li key={index} className="flex">
+                  <li onClick={handleShow} key={index} className="flex">
                     <Link
                       href={item.href}
                       className={`${pathname === item.href ? 'text-foreground bg-background' : ''} p-4 rounded-48 text-[#C4C4C4] text-xl font-medium leading-none tracking-low flex items-center gap-1 hover:text-foreground hover:bg-background transition-all duration-300`}

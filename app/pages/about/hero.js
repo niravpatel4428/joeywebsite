@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="hidden lg:block">
               <Link
                 href="mailto:hello@joey.co"
-                className="bg-[#F9F9F9] rounded-full p-2 sm:p-4 md:p-8 lg:px-12 inline-flex flex-row gap-2 group hover:bg-foreground transition-all duration-300"
+                className="bg-grayLight rounded-full p-2 sm:p-4 md:p-8 lg:px-12 inline-flex flex-row gap-2 group hover:bg-foreground transition-all duration-300"
               >
                 <span className="text-sm sm:text-base md:text-xl font-semibold leading-140 -tracking-low group-hover:text-background">
                   hello@joey.co

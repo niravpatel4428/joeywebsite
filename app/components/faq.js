@@ -80,7 +80,7 @@ const Faq = ({ items }) => {
             </div>
           </div>
           <div className="sm:col-span-full lg:col-span-9">
-            <div className="bg-[#F9F9F9] rounded-32 px-10 sm:ml-10 md:ml-20 lg:ml-0">
+            <div className="bg-grayLight rounded-32 px-10 sm:ml-10 md:ml-20 lg:ml-0">
               <div className="flex flex-col">
                 {accordionItems.map((item, index) => {
                   const isOpen = openIndex === index;

@@ -17,21 +17,21 @@ const CtcForm = () => {
               name="name"
               id="name"
               placeholder="Name"
-              className="py-4 px-5 bg-[#F9F9F9] rounded-48 text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
+              className="py-4 px-5 bg-grayLight rounded-48 text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
             />
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email address"
-              className="py-4 px-5 bg-[#F9F9F9] rounded-48 text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
+              className="py-4 px-5 bg-grayLight rounded-48 text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
             />{" "}
             <textarea
               name="project"
               id="project"
               rows="5"
               placeholder="Tell us more about your project "
-              className="p-5 bg-[#F9F9F9] rounded-2xl text-base leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
+              className="p-5 bg-grayLight rounded-2xl text-base leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
             ></textarea>
             <button className="py-5 px-6 bg-foreground text-background text-base font-semibold rounded-[30px]">
               Submit

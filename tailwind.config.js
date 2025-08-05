@@ -14,6 +14,7 @@ module.exports = {
         primary: "var(--primary)",
         background: "var(--background)",
         foreground: "var(--foreground)",
+        grayLight: "var(--grayLight)",
       },
       fontFamily: {
         grotesk: ["var(--font-space-grotesk)", "sans-serif"],

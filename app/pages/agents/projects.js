@@ -51,10 +51,10 @@ const agentCards = [
 
 const Projects = () => {
   return (
-    <section className="relative pt-8 md:pt-12 lg:pt-36 xl:pt-44">
+    <section className="relative pt-8 md:pt-12 lg:pt-28 max-md:pb-8">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         {/* title block */}
-        <div className="pb-10 md:pb-8 border-b border-[#EFEFEF]">
+        <div className="pb-8 md:pb-8 md:border-b md:border-[#EFEFEF]">
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 md:col-span-4 lg:col-span-6">
               <div className="flex flex-row justify-between items-center gap-5">
@@ -84,7 +84,7 @@ const Projects = () => {
           </div>
         </div>
         {/* cards blocks */}
-        <div className="pt-10 md:pt-10">
+        <div className="pt-8 md:pt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-8 gap-y-12">
             {agentCards.map((card, index) => (
               <AgentCard
@@ -101,7 +101,7 @@ const Projects = () => {
         <div className="mt-10 md:mt-12 xl:mt-16 block">
           <Link
             href="/"
-            className="w-fit block mx-auto text-foreground text-xl font-semibold tracking-low !leading-none py-6 px-20 rounded-full bg-[#F9F9F9] hover:bg-foreground hover:text-background transition-all duration-300"
+            className="w-fit block mx-auto text-foreground text-xl font-semibold tracking-low !leading-none py-6 px-20 rounded-full bg-grayLight hover:bg-foreground hover:text-background transition-all duration-300"
           >
             Load More
           </Link>

@@ -15,19 +15,19 @@ const Choice = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="rounded-2xl bg-[#F9F9F9] p-8 flex flex-row justify-center items-center gap-1">
+          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
             <Image src={figma} alt="icon" className="sizze-20" />
             <p>Figma</p>
           </div>
-          <div className="rounded-2xl bg-[#F9F9F9] p-8 flex flex-row justify-center items-center gap-1">
+          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
             <Image src={slack} alt="icon" className="sizze-20" />
             <p>Slack</p>
           </div>
-          <div className="rounded-2xl bg-[#F9F9F9] p-8 flex flex-row justify-center items-center gap-1">
+          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
             <Image src={linear} alt="icon" className="sizze-20" />
             <p>Linear</p>
           </div>
-          <div className="rounded-2xl bg-[#F9F9F9] p-8 flex flex-row justify-center items-center gap-1">
+          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
             <Image src={notion} alt="icon" className="sizze-20" />
             <p>Notion</p>
           </div>
