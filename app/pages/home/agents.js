@@ -29,9 +29,9 @@ const Agents = () => {
         <div className="relative flex justify-between items-end mb-12 xl:mb-10">
           <div className="w-full max-w-sm">
             <div className="mb-4 sm:mb-3 max-sm:pr-24">
-              <h3 className="text-foreground text-2xl md:text-32 xl:text-5xl font-semibold leading-tight tracking-sharp">
+              <h2 className="text-foreground text-2xl md:text-32 xl:text-5xl font-semibold leading-tight tracking-sharp">
                 Agents
-              </h3>
+              </h2>
             </div>
             <p className="text-foreground text-sm sm:text-base xl:text-xl font-medium leading-140 -tracking-low">
               As a seasoned creator of contemporary, user-friendly web designs

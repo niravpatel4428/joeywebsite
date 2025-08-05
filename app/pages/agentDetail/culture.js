@@ -57,7 +57,7 @@ const Culture = () => {
           <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-10">
               <div className="flex flex-col gap-8">
-                <h4 className="text-foreground text-5xl font-semibold leading-tight">
+                <h4 className="text-foreground text-2xl md:text-32 xl:text-5xl font-semibold leading-tight">
                   Crafting a cohesive and consistent brand experience
                 </h4>
 

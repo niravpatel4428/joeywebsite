@@ -4,6 +4,14 @@ import linear from "@/public/img/linear.svg";
 import slack from "@/public/img/slack.svg";
 import notion from "@/public/img/notion.svg";
 import Image from "next/image";
+
+const tools = [
+  { name: "Figma", icon: figma },
+  { name: "Slack", icon: slack },
+  { name: "Linear", icon: linear },
+  { name: "Notion", icon: notion },
+];
+
 const Choice = () => {
   return (
     <section className="relative mt-10 md:mt-7 xl:mt-16 mb-10 md:mb-7 lg:mb-12 xl:mb-16">
@@ -15,22 +23,21 @@ const Choice = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
-            <Image src={figma} alt="icon" className="sizze-20" />
-            <p>Figma</p>
-          </div>
-          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
-            <Image src={slack} alt="icon" className="sizze-20" />
-            <p>Slack</p>
-          </div>
-          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
-            <Image src={linear} alt="icon" className="sizze-20" />
-            <p>Linear</p>
-          </div>
-          <div className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1">
-            <Image src={notion} alt="icon" className="sizze-20" />
-            <p>Notion</p>
-          </div>
+          {tools.map((tool, index) => (
+            <div
+              key={index}
+              className="rounded-2xl bg-grayLight p-8 flex flex-row justify-center items-center gap-1"
+            >
+              <Image
+                src={tool.icon}
+                alt={`${tool.name} icon`}
+                className="size-20"
+              />
+              <p className="text-foreground text-base font-medium">
+                {tool.name}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

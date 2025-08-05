@@ -2,6 +2,12 @@ import Link from "next/link";
 import React from "react";
 import CtcBtn from "./ctcBtn";
 
+const socialLinks = [
+  { name: "Dribbble", href: "https://dribbble.com" },
+  { name: "Instagram", href: "https://instagram.com" },
+  { name: "LinkedIn", href: "https://linkedin.com" },
+];
+
 const Footer = () => {
   return (
     <footer className="relative mt-9 md:mt-24 xl:mt-32 pb-8 md:pb-10 xl:pb-12">
@@ -25,30 +31,18 @@ const Footer = () => {
             </div>
             <div>
               <ul className="flex sm:justify-end gap-10">
-                <li>
-                  <Link
-                    href="/"
-                    className="hover:underline underline-offset-1 transition-all duration-300"
-                  >
-                    Dribbble
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/"
-                    className="hover:underline underline-offset-1 transition-all duration-300"
-                  >
-                    Instagram
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/"
-                    className="hover:underline underline-offset-1 transition-all duration-300"
-                  >
-                    LinkedIn
-                  </Link>
-                </li>
+                {socialLinks.map((link, index) => (
+                  <li key={index}>
+                    <Link
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline underline-offset-1 transition-all duration-300"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

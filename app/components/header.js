@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 import altiBlack from "@/public/img/altiBlack.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -73,7 +73,11 @@ const Header = () => {
                   <li onClick={handleShow} key={index} className="flex">
                     <Link
                       href={item.href}
-                      className={`${pathname === item.href ? 'text-foreground bg-background' : ''} p-4 rounded-48 text-[#C4C4C4] text-xl font-medium leading-none tracking-low flex items-center gap-1 hover:text-foreground hover:bg-background transition-all duration-300`}
+                      className={`${
+                        pathname === item.href
+                          ? "text-foreground bg-background"
+                          : ""
+                      } p-4 rounded-48 text-[#C4C4C4] text-xl font-medium leading-none tracking-low flex items-center gap-1 hover:text-foreground hover:bg-background transition-all duration-300`}
                     >
                       {item.label}
                     </Link>

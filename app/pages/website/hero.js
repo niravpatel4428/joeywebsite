@@ -30,7 +30,7 @@ const Hero = () => {
 
         {/* title */}
         <div className="grid grid-cols-12">
-          <div className="col-span-10">
+          <div className="col-span-12 sm:col-span-10">
             <div className="mb-7">
               <h1 className="text-foreground text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-64 font-semibold !leading-110 tracking-medium">
                 Go by one dresscode; wear your heart on your sleeve
@@ -39,10 +39,11 @@ const Hero = () => {
             <div className="flex flex-col gap-2">
               <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">
                 As emerging sectors arise and current ones become saturated,
-                you&apos;ll need to differentiate yourself. Enter &apos;branding&apos;. We
-                assist you in developing a memorable brand. One that shares your
-                narrative. One that establishes expectations. One that fosters
-                connections with your audience and maintains them robustly.
+                you&apos;ll need to differentiate yourself. Enter
+                &apos;branding&apos;. We assist you in developing a memorable
+                brand. One that shares your narrative. One that establishes
+                expectations. One that fosters connections with your audience
+                and maintains them robustly.
               </p>
             </div>
           </div>
@@ -60,11 +61,11 @@ const Hero = () => {
         {/* content */}
         <div className="flex flex-col gap-7">
           <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">
-            First, let&apos;s tackle the elephant in the room: what is &apos;brand&apos;? In a
-            nutshell, your brand represents how people perceive and feel about
-            you. Maybe you haven&apos;t considered your business as a brand, or
-            perhaps you did, but it vanished amidst growing your team and
-            developing your product.
+            First, let&apos;s tackle the elephant in the room: what is
+            &apos;brand&apos;? In a nutshell, your brand represents how people
+            perceive and feel about you. Maybe you haven&apos;t considered your
+            business as a brand, or perhaps you did, but it vanished amidst
+            growing your team and developing your product.
           </p>
 
           <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">

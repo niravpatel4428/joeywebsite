@@ -12,20 +12,20 @@ const Experties = () => {
         <div className="grid grid-cols-12 md:gap-x-9 xl:gap-x-20 gap-y-8 md:gap-y-14 xl:gap-y-20">
           <div className="col-span-12 md:col-span-6 lg:pr-10 xl:pr-20">
             <div className="mb-4 md:mb-7">
-              <h4 className="text-foreground text-xl md:text-2xl lg:text-[28px] xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
+              <h4 className="text-foreground text-xl md:text-2xl lg:text-28 xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
                 Branding
               </h4>
             </div>
             <p className="text-foreground text-sm md:text-base lg:text-lg xl:text-xl font-medium leading-140 -tracking-low">
-              Collaborating closely, we&apos;ll develop an impactful brand identity
-              for your emerging enterprise. The full spectrum of brand analysis
-              and design is addressed, culminating in a visually stunning,
-              evergreen logo concept.
+              Collaborating closely, we&apos;ll develop an impactful brand
+              identity for your emerging enterprise. The full spectrum of brand
+              analysis and design is addressed, culminating in a visually
+              stunning, evergreen logo concept.
             </p>
           </div>
           <div className="col-span-12 md:col-span-6 lg:pl-10 xl:pl-20">
             <div className="mb-4 md:mb-7">
-              <h4 className="text-foreground text-xl md:text-2xl lg:text-[28px] xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
+              <h4 className="text-foreground text-xl md:text-2xl lg:text-28 xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
                 UI Design
               </h4>
             </div>
@@ -38,7 +38,7 @@ const Experties = () => {
           </div>
           <div className="col-span-12 md:col-span-6 lg:pr-10 xl:pr-20">
             <div className="mb-4 md:mb-7">
-              <h4 className="text-foreground text-xl md:text-2xl lg:text-[28px] xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
+              <h4 className="text-foreground text-xl md:text-2xl lg:text-28 xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
                 UX Design
               </h4>
             </div>
@@ -51,7 +51,7 @@ const Experties = () => {
           </div>
           <div className="col-span-12 md:col-span-6 lg:pl-10 xl:pl-20">
             <div className="mb-4 md:mb-7">
-              <h4 className="text-foreground text-xl md:text-2xl lg:text-[28px] xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
+              <h4 className="text-foreground text-xl md:text-2xl lg:text-28 xl:text-3xl font-semibold leading-snug -tracking-sharp pl-3 relative after:absolute after:content-[''] after:size-1 after:bg-foreground after:rounded-full after:left-0 after:top-1/2 after:-translate-y-1/2">
                 Development
               </h4>
             </div>

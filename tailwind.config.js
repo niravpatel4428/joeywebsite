@@ -20,6 +20,7 @@ module.exports = {
         grotesk: ["var(--font-space-grotesk)", "sans-serif"],
       },
       fontSize: {
+        28: "28px",
         32: "32px",
         64: "64px",
         79: "79px",

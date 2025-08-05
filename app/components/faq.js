@@ -92,9 +92,9 @@ const Faq = ({ items }) => {
                       {/* Title */}
                       <button
                         onClick={() => toggleAccordion(index)}
-                        className="relative pr-8 text-left w-full my-10"
+                        className="relative pr-8 text-left w-full my-10 group"
                       >
-                        <h5 className="text-foreground text-xl font-medium leading-140 tracking-medium">
+                        <h5 className="text-foreground text-xl font-medium leading-140 tracking-medium group-hover:opacity-70 transition-all duration-300">
                           {item.question}
                         </h5>
                         <div className="w-6 absolute top-1/2 -translate-y-1/2 right-0">
