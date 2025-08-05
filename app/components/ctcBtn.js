@@ -3,7 +3,7 @@ import Link from "next/link";
 import arrow from "@/public/img/ctcArrow.svg";
 import Image from "next/image";
 
-const CtcBtn = ({ text, mailId, cName, hrefLink, sName }) => {
+const CtcBtn = ({ text,  cName, hrefLink, sName }) => {
   return (
     <>
       <Link
@@ -15,11 +15,6 @@ const CtcBtn = ({ text, mailId, cName, hrefLink, sName }) => {
         >
           {text}
         </span>
-        {/* <Image
-          src={arrow}
-          alt="icon"
-          className="size-4 xl:size-5 inline-block group-hover:invert xl:-mt-1.5"
-        /> */}
       </Link>
     </>
   );
