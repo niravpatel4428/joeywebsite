@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import logo from "@/public/img/logo.svg";
+import { usePathname } from 'next/navigation';
+import altiBlack from "@/public/img/altiBlack.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,8 +12,7 @@ const navItems = [
   },
   {
     label: "Agents",
-    href: "/",
-    badge: "20", // optional badge
+    href: "/agents",
   },
   {
     label: "About",
@@ -25,6 +25,7 @@ const navItems = [
 ];
 
 const Header = () => {
+  const pathname = usePathname();
   const [show, setShow] = useState(false);
   const handleShow = () => {
     setShow(!show);
@@ -34,7 +35,7 @@ const Header = () => {
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="flex flex-row max-sm:justify-between sm:flex-col justify-center items-center gap-10">
           <Link href="/" className="w-fit block">
-            <Image src={logo} alt="icon" className="w-24" />
+            <Image src={altiBlack} alt="icon" className="w-24" />
           </Link>
           {/* toggle btn */}
           <div className="block sm:hidden">
@@ -68,53 +69,12 @@ const Header = () => {
           >
             <div className="bg-foreground sm:w-fit sm:rounded-full shadow-custom p-5 sm:p-[5px]">
               <ul className="flex flex-col sm:flex-row items-center gap-4">
-                {/* <li className="flex">
-                  <Link
-                    href="/"
-                    className="p-4 rounded-[48px] text-[#C4C4C4] text-xl font-medium leading-none tracking-low hover:text-foreground hover:bg-background transition-all duration-300"
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li className="flex">
-                  <Link
-                    href="/"
-                    className="p-4 rounded-[48px] text-[#C4C4C4] text-xl font-medium leading-none tracking-low flex items-center gap-1 hover:text-foreground hover:bg-background transition-all duration-300"
-                  >
-                    {" "}
-                    <span className="bg-[#C4C4C4] rounded-full text-foreground text-[10px] p-1 leading-none min-w-5">
-                      20
-                    </span>{" "}
-                    Agents
-                  </Link>
-                </li>
-                <li className="flex">
-                  <Link
-                    href="/"
-                    className="p-4 rounded-[48px] text-[#C4C4C4] text-xl font-medium leading-none tracking-low hover:text-foreground hover:bg-background transition-all duration-300"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li className="flex">
-                  <Link
-                    href="/"
-                    className="p-4 rounded-[48px] text-[#C4C4C4] text-xl font-medium leading-none tracking-low hover:text-foreground hover:bg-background transition-all duration-300"
-                  >
-                    Contact
-                  </Link>
-                </li> */}
                 {navItems.map((item, index) => (
                   <li key={index} className="flex">
                     <Link
                       href={item.href}
-                      className="p-4 rounded-[48px] text-[#C4C4C4] text-xl font-medium leading-none tracking-low flex items-center gap-1 hover:text-foreground hover:bg-background transition-all duration-300"
+                      className={`${pathname === item.href ? 'text-foreground bg-background' : ''} p-4 rounded-48 text-[#C4C4C4] text-xl font-medium leading-none tracking-low flex items-center gap-1 hover:text-foreground hover:bg-background transition-all duration-300`}
                     >
-                      {item.badge && (
-                        <span className="bg-[#C4C4C4] rounded-full text-foreground text-[10px] p-1 leading-none min-w-5">
-                          {item.badge}
-                        </span>
-                      )}
                       {item.label}
                     </Link>
                   </li>

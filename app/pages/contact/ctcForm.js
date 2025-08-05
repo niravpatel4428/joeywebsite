@@ -6,7 +6,7 @@ const CtcForm = () => {
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="text-center max-w-[525px] lg:max-w-3xl mx-auto mb-10 md:mb-14 xl:mb-12">
           <h1 className="text-foreground text-32 sm:text-4xl md:text-5xl lg:text-[54px] xl:text-64 font-semibold leading-110 -tracking-medium">
-            Have a project idea? Let&apos;s discuss it together.
+            Send us a message
           </h1>
         </div>
 
@@ -17,29 +17,15 @@ const CtcForm = () => {
               name="name"
               id="name"
               placeholder="Name"
-              className="py-4 px-5 bg-[#F9F9F9] rounded-[48px] text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
+              className="py-4 px-5 bg-[#F9F9F9] rounded-48 text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
             />
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email address"
-              className="py-4 px-5 bg-[#F9F9F9] rounded-[48px] text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
-            />
-            <input
-              type="tel"
-              name="number"
-              id="number"
-              placeholder="Mobile Number"
-              className="py-4 px-5 bg-[#F9F9F9] rounded-[48px] text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
-            />
-            <input
-              type="text"
-              name="aboutUs"
-              id="aboutUs"
-              placeholder="How did you hear about us?"
-              className="py-4 px-5 bg-[#F9F9F9] rounded-[48px] text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
-            />
+              className="py-4 px-5 bg-[#F9F9F9] rounded-48 text-sm leading-170 text-foreground font-medium placeholder:text-[#C4C4C4] outline-none"
+            />{" "}
             <textarea
               name="project"
               id="project"

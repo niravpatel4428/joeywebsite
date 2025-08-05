@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         <div className="relative mb-16">
           <h1 className="text-foreground text-5xl sm:text-7xl md:text-[84px] lg:text-[180px] xl:text-[227px] font-semibold leading-none tracking-[-4.54px] max-md:text-center">
-            Websites& <br /> Branding
+            Private Cloud for AI Agents
           </h1>
 
           <div className="relative max-md:mt-4 max-md:flex max-md:justify-end md:absolute bottom-1 lg:bottom-7 xl:bottom-10 right-0 xl:-right-3">
@@ -34,36 +34,6 @@ const Hero = () => {
                 className="rotate-90 w-[13px] group-hover:invert"
               />
             </button>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-5 lg:col-span-7">
-            <div className="">
-              <p className="text-fore text-xl xl:text-2xl font-semibold leading-tight tracking-low mb-2">
-                Let&apos;s Talk
-              </p>
-              <Link
-                href="mailto:hello@joey.co"
-                className="text-foreground text-sm xl:text-xl font-medium leading-140 tracking-low"
-              >
-                hello@joey.co
-              </Link>
-            </div>
-          </div>
-          <div className="col-span-7 lg:col-span-5">
-            <div className="hidden lg:block">
-              <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">
-                Hello, I&apos;m Joey, an online product designer focusing on brand
-                identity, advertising, and no-code instruments.
-              </p>
-            </div>
-            <div className="block lg:hidden">
-              <p className="text-foreground text-sm md:text-base xl:text-xl font-medium leading-140 tracking-low">
-                Hey there, I&apos;m Joey, a digital product designer specializing in
-                branding, marketing, and no-code tools.
-              </p>
-            </div>
           </div>
         </div>
       </div>

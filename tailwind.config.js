@@ -16,7 +16,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        grotesk: ["var(--font-familjen-grotesk)", "sans-serif"],
+        grotesk: ["var(--font-space-grotesk)", "sans-serif"],
       },
       fontSize: {
         32: "32px",
@@ -43,8 +43,17 @@ module.exports = {
         170: "172%",
       },
       boxShadow: {
-        'custom': '0 12px 20px 0 rgba(0, 0, 0, 0.04);',
-      }
+        custom: "0 12px 20px 0 rgba(0, 0, 0, 0.04);",
+      },
+      backgroundImage: {
+        arrowBlack: "url('/img/blackArrow.svg')",
+      },
+      borderRadius: {
+        32: "32px",
+        40: "40px",
+        48: "48px",
+        60: "60px",
+      },
     },
   },
   plugins: [],
