@@ -37,11 +37,8 @@ const Collaborate = () => {
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 xl:gap-x-20 gap-y-12">
             {features.map((feature, index) => (
-              <div key={index} className="flex flex-col gap-2">
-                <div className="flex flex-col gap-[10px]">
-                  <div className="bg-foreground size-[60px] rounded-full flex justify-center items-center">
-                    <Image src={feature.icon} alt="icon" className="w-6" />
-                  </div>
+              <div key={index} className="flex flex-col gap-3">
+                <div className="block">
                   <h3 className="text-foreground text-2xl font-bold leading-140 tracking-low">
                     {feature.title}
                   </h3>
