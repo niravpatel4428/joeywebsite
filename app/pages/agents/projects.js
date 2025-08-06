@@ -75,7 +75,9 @@ const Projects = () => {
             <div className="col-span-12 md:col-span-8 lg:col-span-6">
               <div className="">
                 <p className="text-foreground text-base lg:text-lg xl:text-xl font-medium tracking-low">
-                  Browse our complete collection of specialized AI agents, each designed for specific business functions. Deploy any agent instantly through our API with enterprise-grade security and reliability.
+                  Browse our complete collection of specialized AI agents, each
+                  designed for specific business functions. Deploy any agent
+                  instantly through our API with enterprise-grade security.
                 </p>
               </div>
             </div>
