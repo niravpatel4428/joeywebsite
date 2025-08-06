@@ -1,7 +1,6 @@
 import React from "react";
 import collabrate from "@/public/img/collabrate.svg";
 import Image from "next/image";
-
 export const features = [
   {
     icon: collabrate,
