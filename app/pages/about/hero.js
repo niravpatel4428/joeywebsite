@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
 
           <div className="w-full max-w-[47%] sm:max-w-72 lg:max-w-96 xl:max-w-[473px] flex flex-col items-center gap-10">
-            <div className="-mt-5 md:-mt-0">
+            <div className="-mt-5 md:mt-14">
               <Image
                 src={vector}
                 alt="image-1"
