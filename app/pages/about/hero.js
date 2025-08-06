@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import vector from "@/public/img/Icon-Vector.svg";
 import arrow from "@/public/img/blackArrow.svg";
 import joeyImg from "@/public/img/joeyImg.png";
 import CtcBtn from "@/app/components/ctcBtn";
@@ -11,7 +12,7 @@ const Hero = () => {
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
         {/* title box */}
         <div className="flex ">
-          <div className="w-full max-w-[860px] -mr-16 sm:pt-6 md:pt-20 lg:pt-0">
+          <div className="w-full max-w-[860px] -mr-16 sm:pt-6 md:pt-0 lg:pt-0">
             <h1 className="relative z-10 text-foreground text-5xl sm:text-7xl md:text-[92px] lg:text-[125px] xl:text-[160px] font-semibold !leading-snug tracking-[-0.84px] lg:tracking-[-4.54px]">
               Hey, <br />
               I&apos;m Alti
@@ -27,9 +28,9 @@ const Hero = () => {
           </div>
 
           <div className="w-full max-w-[47%] sm:max-w-72 lg:max-w-96 xl:max-w-[473px] flex flex-col items-center gap-10">
-            <div className="-mt-10 lg:-mt-20">
+            <div className="-mt-5 md:-mt-10">
               <Image
-                src={joeyImg}
+                src={vector}
                 alt="image-1"
                 className="rounded-2xl md:rounded-3xl lg:rounded-[64px]"
               />
@@ -38,7 +39,7 @@ const Hero = () => {
         </div>
 
         {/* descrition */}
-        <div className="max-lg:mt-6 lg:-mt-10 xl:-mt-20">
+        <div className="max-lg:mt-6">
           <div className="flex flex-col gap-10 w-full lg:max-w-xl xl:max-w-[700px]">
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
               We believe the future of AI lies not in centralized control, but
