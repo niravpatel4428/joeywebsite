@@ -34,7 +34,7 @@ const Agents = () => {
               </h2>
             </div>
             <p className="text-foreground text-sm sm:text-base xl:text-xl font-medium leading-140 -tracking-low">
-              Access a curated collection of powerful AI agents through our secure private cloud platform. Each agent is pre configured and ready to deploy via simple API integration, backed by enterprise grade security and guaranteed uptime for mission critical applications.
+              Access a curated collection of powerful AI agents through our secure private cloud platform. Each agent is pre configured and ready to deploy via simple API integration, backed by enterprise grade security and guaranteed uptime.
             </p>
           </div>
 
