@@ -29,8 +29,7 @@ const Collaborate = () => {
         {/* title block */}
         <div className="mb-10 lg:mb-14 xl:mb-16">
           <h2 className="text-foreground text-32 sm:text-5xl md:text-84 font-semibold leading-tight tracking-[-0.84px]">
-            Why build <br />
-            with me?
+            Why build with me?
           </h2>
         </div>
 
