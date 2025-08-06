@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
 
         {/* descrition */}
-        <div className="max-lg:mt-6 lg:-mt-12 xl:-mt-14">
+        <div className="max-lg:mt-6 lg:-mt-0 xl:-mt-2">
           <div className="flex flex-col gap-10 w-full lg:max-w-xl xl:max-w-[700px]">
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
               We believe the future of AI lies not in centralized control, but
