@@ -34,27 +34,11 @@ const Hero = () => {
                 className="rounded-2xl md:rounded-3xl lg:rounded-[64px]"
               />
             </div>
-
-            <div className="hidden lg:block">
-              <Link
-                href="mailto:hello@joey.co"
-                className="bg-grayLight rounded-full p-2 sm:p-4 md:p-8 lg:px-12 inline-flex flex-row gap-2 group hover:bg-foreground transition-all duration-300"
-              >
-                <span className="text-sm sm:text-base md:text-xl font-semibold leading-140 -tracking-low group-hover:text-background">
-                  hello@joey.co
-                </span>
-                <Image
-                  src={arrow}
-                  alt="icon"
-                  className="-rotate-45 w-[13px] group-hover:invert"
-                />
-              </Link>
-            </div>
           </div>
         </div>
 
         {/* descrition */}
-        <div className="max-lg:mt-6 lg:-mt-32 xl:-mt-48">
+        <div className="max-lg:mt-6 lg:-mt-10 xl:-mt-20">
           <div className="flex flex-col gap-10 w-full lg:max-w-xl xl:max-w-[700px]">
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
               We believe the future of AI lies not in centralized control, but
@@ -81,16 +65,16 @@ const Hero = () => {
             </p>
 
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
-              What sets us apart isn&apos;t just our technology, but our commitment
-              to the open source AI ecosystem. By partnering with leading AI
-              researchers and developers, we ensure our platform stays at the
-              cutting edge of AI innovation while providing the enterprise grade
-              security, monitoring, and support that production applications
-              require. Whether you&apos;re building the next breakthrough application
-              or scaling an existing product, our platform gives you the power
-              of specialized AI agents without the operational overhead, backed
-              by SOC 2 certified infrastructure and 24/7 monitoring that never
-              sleeps.
+              What sets us apart isn&apos;t just our technology, but our
+              commitment to the open source AI ecosystem. By partnering with
+              leading AI researchers and developers, we ensure our platform
+              stays at the cutting edge of AI innovation while providing the
+              enterprise grade security, monitoring, and support that production
+              applications require. Whether you&apos;re building the next
+              breakthrough application or scaling an existing product, our
+              platform gives you the power of specialized AI agents without the
+              operational overhead, backed by SOC 2 certified infrastructure and
+              24/7 monitoring that never sleeps.
             </p>
           </div>
         </div>
