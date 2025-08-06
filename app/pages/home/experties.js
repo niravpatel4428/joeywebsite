@@ -31,7 +31,7 @@ const Experties = () => {
               </h4>
             </div>
             <p className="text-foreground text-sm md:text-base lg:text-lg xl:text-xl font-normal leading-140 -tracking-low">
-              Our security systems actively monitor for threats targeting AI agent infrastructure, including API abuse attacks and sophisticated data injection attempts. Machine learning powered detection identifies suspicious patterns in agent API behavior and automatically isolates any affected systems for immediate threat intelligence protection.
+              Our security systems actively monitor for threats targeting AI agent infrastructure, including API abuse attacks and sophisticated data injection attempts. Machine learning powered detection identifies suspicious patterns in agent API behavior and automatically isolates any affected systems for threat intelligence protection.
             </p>
           </div>
           <div className="col-span-12 md:col-span-6 lg:pr-10 xl:pr-20">
