@@ -21,7 +21,7 @@ const Experties = () => {
               every access is authenticated and authorized, preventing
               unauthorized access to agent configurations and customer data.
               Advanced network segmentation ensures each AI agent runs in its
-              own secure enclave with comprehensive real-time monitoring.
+              own secure enclave with real-time monitoring.
             </p>
           </div>
           <div className="col-span-12 md:col-span-6 lg:pl-10 xl:pl-20">
