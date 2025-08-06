@@ -5,21 +5,21 @@ import Image from "next/image";
 export const features = [
   {
     icon: collabrate,
-    title: "Client-Centric",
+    title: "Enterprise Security",
     description:
-      "Your goals are our focus. We listen, understand, and work closely with you to achieve your vision.",
+      "Zero-trust architecture, SOC 2 certified facilities, and comprehensive threat monitoring protect your applications and data. Every agent runs in isolated environments with real time security analysis and automated incident response.",
   },
   {
     icon: collabrate,
-    title: "Tailored Solutions",
+    title: "Developer First",
     description:
-      "We don't do one-size-fits-all. We craft solutions that are unique to your business, ensuring you stand out in your industry.",
+      "Simple API integration, comprehensive documentation, and dedicated technical support make deployment effortless. Focus on building your application while we handle the complex AI infrastructure and maintenance.",
   },
   {
     icon: collabrate,
-    title: "Creative Innovation",
+    title: "Production Ready",
     description:
-      "We stay ahead of design and branding trends to offer fresh and innovative ideas that set you apart.",
+      "Guaranteed uptime, auto scaling capabilities, and performance optimized agents ensure your applications run reliably at any scale. Our platform handles traffic spikes automatically while maintaining consistent performance.",
   },
 ];
 
@@ -30,26 +30,26 @@ const Collaborate = () => {
         {/* title block */}
         <div className="mb-10 lg:mb-14 xl:mb-16">
           <h2 className="text-foreground text-32 sm:text-5xl md:text-84 font-semibold leading-tight tracking-[-0.84px]">
-            Why Collaborate <br />
+            Why build <br />
             with me?
           </h2>
         </div>
 
         {/* block */}
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 xl:gap-x-32 gap-y-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 xl:gap-x-20 gap-y-12">
             {features.map((feature, index) => (
               <div key={index} className="flex flex-col gap-2">
                 <div className="flex flex-col gap-[10px]">
                   <div className="bg-foreground size-[60px] rounded-full flex justify-center items-center">
                     <Image src={feature.icon} alt="icon" className="w-6" />
                   </div>
-                  <h3 className="text-foreground text-xl font-semibold leading-140 tracking-low">
+                  <h3 className="text-foreground text-2xl font-bold leading-140 tracking-low">
                     {feature.title}
                   </h3>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <p className="text-foreground text-xl font-medium leading-140 tracking-low">
+                  <p className="text-foreground text-lg font-medium leading-140 tracking-low">
                     {feature.description}
                   </p>
                 </div>

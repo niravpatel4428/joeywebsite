@@ -57,23 +57,40 @@ const Hero = () => {
         <div className="max-lg:mt-6 lg:-mt-32 xl:-mt-48">
           <div className="flex flex-col gap-10 w-full lg:max-w-xl xl:max-w-[700px]">
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
-              Embarking on a journey of growth and education, I&apos;ve spent 9
-              years collaborating remotely alongside innovative individuals from
-              agencies, startups, and small companies on myriad design ventures.
+              We believe the future of AI lies not in centralized control, but
+              in democratized access to powerful, specialized agents. Founded on
+              the principle that every developer should have enterprise grade AI
+              agent capabilities at their fingertips, we&apos;ve built the
+              world&apos;s most secure private cloud platform dedicated
+              exclusively to AI agents. We take the best open source AI agents,
+              optimize them for production workloads, and deliver them through
+              simple API integrations that scale from startup experiments to
+              mission critical enterprise applications
             </p>
 
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
-              My mastery of design and marketing stems from an array of online
-              courses and tools, such as Thefutur, Mizko, Flux Academy, and
-              Sabri Suby, equipping me with the expertise and abilities to excel
-              in the field. In my leisure time, I relish tackling personal
-              projects and immersing myself in design-centric materials.{" "}
+              Our platform transforms how businesses deploy AI by eliminating
+              the complexity, cost, and security risks of self hosting
+              infrastructure. Each agent in our curated collection runs within
+              its own isolated environment, protected by zero-trust architecture
+              and comprehensive threat intelligence systems. From advanced
+              network segmentation to air-gapped backup systems, we&apos;ve
+              engineered every layer of our infrastructure to meet the most
+              demanding security requirements while maintaining the performance
+              and reliability that modern applications demand.
             </p>
 
             <p className="text-foreground text-base sm:text-xl font-medium leading-140 tracking-low">
-              Additionally, I am a dedicated video game enthusiast and find that
-              a musical blend of hip-hop and jazz aids in maintaining
-              productivity and concentration during work.
+              What sets us apart isn&apos;t just our technology, but our commitment
+              to the open source AI ecosystem. By partnering with leading AI
+              researchers and developers, we ensure our platform stays at the
+              cutting edge of AI innovation while providing the enterprise grade
+              security, monitoring, and support that production applications
+              require. Whether you&apos;re building the next breakthrough application
+              or scaling an existing product, our platform gives you the power
+              of specialized AI agents without the operational overhead, backed
+              by SOC 2 certified infrastructure and 24/7 monitoring that never
+              sleeps.
             </p>
           </div>
         </div>

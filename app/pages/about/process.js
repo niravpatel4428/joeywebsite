@@ -3,24 +3,24 @@ import React from "react";
 
 export const processSteps = [
   {
-    title: "Discovery",
+    title: "Agent Discovery",
     description:
-      "To start, we'll acquire comprehension of your company and how consumers interact with your offerings. In this phase, recognizing the core issue will be accomplished by examining and studying the collected data.",
+      "We continuously scout the open source AI ecosystem to identify the most promising and innovative agents. Our technical team evaluates each agent for performance, reliability, and real world applicability, selecting only those that meet our strict standards for enterprise deployment.",
   },
   {
-    title: "Strategy",
+    title: "Security Hardening",
     description:
-      "Utilizing the collected data, we'll create a design plan focused on user needs, aiming to tackle user issues and boost your company's performance.",
+      "Every selected agent undergoes comprehensive security analysis and performance optimization. We implement zero-trust architecture, configure isolated environments, and enhance the agent's capabilities while ensuring it meets enterprise grade security and compliance requirements.",
   },
   {
-    title: "Design",
+    title: "Private Cloud Deployment",
     description:
-      "I will proceed to roll up my sleeves and craft functional, engaging interfaces that adhere to visual guidelines, ensuring a consistent brand identity. Above all, the design will adeptly tackle user and business concerns in a seamless and proficient way.",
+      "Agents are deployed on our secure, SOC 2 certified infrastructure with dedicated resources and comprehensive monitoring. Each agent runs in its own protected enclave with real-time threat detection, automated backups, and guaranteed uptime for mission critical applications.",
   },
   {
-    title: "Implementation",
+    title: "API Integration",
     description:
-      "Following the manipulation of countless pixels and crafting the code, we'll possess a finalized project prepared for worldwide distribution. This endeavor might necessitate substantial coffee consumption to maintain my energy levels.",
+      "We provide simple, well documented APIs that make agent integration effortless for developers. Our platform includes comprehensive developer tools, detailed documentation, and ongoing technical support to ensure seamless deployment and optimal performance in your applications.",
   },
 ];
 const Process = () => {
