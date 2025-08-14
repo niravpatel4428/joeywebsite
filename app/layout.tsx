@@ -1,19 +1,21 @@
+import type { Metadata } from "next";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
-import { Space_Grotesk } from "next/font/google";
-export const spaceGroteskFont = Space_Grotesk({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-space-grotesk",
-  display: "swap",
-});
-export const metadata = {
+import { spaceGroteskFont } from "./lib/fonts";
+import { ReactNode } from "react";
+
+
+export const metadata: Metadata = {
   title: "Alti Cloud",
   description: "Agent Layer Task Intelligence",
 };
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={spaceGroteskFont.variable}>

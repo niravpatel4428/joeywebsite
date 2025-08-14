@@ -4,7 +4,7 @@ import React from "react";
 import arrow from "@/public/img/blackArrow.svg";
 import image1 from "@/public/img/agents-card1.png";
 import image2 from "@/public/img/agents-card2.png";
-import AgentCard from "@/app/components/agentCard";
+import AgentCard from "../../components/agentCard";
 
 const agentCards = [
   {

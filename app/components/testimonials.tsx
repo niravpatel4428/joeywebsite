@@ -1,6 +1,14 @@
-import React from "react";
+import React, { FC } from "react";
 
-const Testimonials = ({
+interface TestimonialsProps {
+  title?: string;
+  subdetail?: string;
+  description: string;
+  authorName: string;
+  authorRole: string;
+}
+
+const Testimonials: FC<TestimonialsProps> = ({
   title,
   subdetail,
   description,

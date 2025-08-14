@@ -5,31 +5,26 @@ import altiBlack from "@/public/img/altiBlack.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const navItems = [
-  {
-    label: "Home",
-    href: "/",
-  },
-  {
-    label: "About",
-    href: "/about",
-  },
-  {
-    label: "Agents",
-    href: "/agents",
-  },
-  {
-    label: "Contact",
-    href: "/contact",
-  },
+interface NavItem {
+  label: string;
+  href: string;
+}
+
+const navItems: NavItem[] = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Agents", href: "/agents" },
+  { label: "Contact", href: "/contact" },
 ];
 
-const Header = () => {
+const Header: React.FC = () => {
   const pathname = usePathname();
-  const [show, setShow] = useState(false);
-  const handleShow = () => {
-    setShow(!show);
+  const [show, setShow] = useState<boolean>(false);
+
+  const handleShow = (): void => {
+    setShow((prev) => !prev);
   };
+
   return (
     <div className="relative py-4 sm:pt-8">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
@@ -37,6 +32,7 @@ const Header = () => {
           <Link href="/" className="w-fit block">
             <Image src={altiBlack} alt="icon" className="w-24" />
           </Link>
+
           {/* toggle btn */}
           <div className="block sm:hidden">
             <button

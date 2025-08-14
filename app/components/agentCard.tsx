@@ -1,7 +1,20 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+import { FC } from "react";
 
-const AgentCard = ({ image, title, subtitle, href = "/" }) => {
+interface AgentCardProps {
+  image: string | StaticImageData; 
+  title: string;
+  subtitle: string;
+  href?: string;
+}
+
+const AgentCard: FC<AgentCardProps> = ({
+  image,
+  title,
+  subtitle,
+  href = "/",
+}) => {
   return (
     <div className="flex flex-col gap-3 xl:gap-6">
       <Link

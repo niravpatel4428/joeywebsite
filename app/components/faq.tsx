@@ -1,10 +1,19 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, ReactNode } from "react";
 import plus from "@/public/img/plus.svg";
-import Minus from "@/public/img/Minus.svg";
+import minus from "@/public/img/Minus.svg";
 import Image from "next/image";
 
-const accordionItems = [
+interface AccordionItem {
+  question: string;
+  answer: ReactNode;
+}
+
+interface FaqProps {
+  items?: AccordionItem[]; 
+}
+
+const accordionItems: AccordionItem[] = [
   {
     question: "Is copywriting included in the services you provide?",
     answer: (
@@ -29,45 +38,18 @@ const accordionItems = [
     answer:
       "Our design process starts with research and discovery, followed by wireframing, design exploration, and final UI development. We work collaboratively and share iterations throughout.",
   },
-  {
-    question: "Is copywriting included in the services you provide?",
-    answer:
-      "While we don't offer copywriting as a standalone service we do prioritize crafting a compelling and engaging tone and voice based on your brand's identity. Needless to say these are defined in Brand Identity Guidelines providing you with a framework for future reference and consistency.",
-  },
-  {
-    question: "What is your design process like?",
-    answer:
-      "Our design process starts with research and discovery, followed by wireframing, design exploration, and final UI development. We work collaboratively and share iterations throughout.",
-  },
-  {
-    question: "Is copywriting included in the services you provide?",
-    answer:
-      "While we don't offer copywriting as a standalone service we do prioritize crafting a compelling and engaging tone and voice based on your brand's identity. Needless to say these are defined in Brand Identity Guidelines providing you with a framework for future reference and consistency.",
-  },
-  {
-    question: "What is your design process like?",
-    answer:
-      "Our design process starts with research and discovery, followed by wireframing, design exploration, and final UI development. We work collaboratively and share iterations throughout.",
-  },
-  {
-    question: "Is copywriting included in the services you provide?",
-    answer:
-      "While we don't offer copywriting as a standalone service we do prioritize crafting a compelling and engaging tone and voice based on your brand's identity. Needless to say these are defined in Brand Identity Guidelines providing you with a framework for future reference and consistency.",
-  },
-  {
-    question: "What is your design process like?",
-    answer:
-      "Our design process starts with research and discovery, followed by wireframing, design exploration, and final UI development. We work collaboratively and share iterations throughout.",
-  },
-  // Add more if needed
+  // Repeat or extend as needed...
 ];
 
-const Faq = ({ items }) => {
-  const [openIndex, setOpenIndex] = useState(null);
+const Faq: React.FC<FaqProps> = ({ items }) => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleAccordion = (index) => {
+  const toggleAccordion = (index: number): void => {
     setOpenIndex((prev) => (prev === index ? null : index));
   };
+
+  const data = items ?? accordionItems;
+
   return (
     <section className="relative pt-5 md:pt-16 lg:pt-20 pb-10">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
@@ -82,7 +64,7 @@ const Faq = ({ items }) => {
           <div className="sm:col-span-full lg:col-span-9">
             <div className="bg-grayLight rounded-32 px-10 sm:ml-10 md:ml-20 lg:ml-0">
               <div className="flex flex-col">
-                {accordionItems.map((item, index) => {
+                {data.map((item, index) => {
                   const isOpen = openIndex === index;
                   return (
                     <div
@@ -99,7 +81,7 @@ const Faq = ({ items }) => {
                         </h5>
                         <div className="w-6 absolute top-1/2 -translate-y-1/2 right-0">
                           <Image
-                            src={isOpen ? Minus : plus}
+                            src={isOpen ? minus : plus}
                             alt="toggle icon"
                             className="w-6"
                           />
@@ -131,26 +113,3 @@ const Faq = ({ items }) => {
 };
 
 export default Faq;
-
-// <div className="border-b border-[#E6E6E6]">
-//   {/* title of accordion */}
-//   <div className="relative pr-8 mb-10">
-//     <h5 className="text-foreground text-xl font-medium leading-140 tracking-medium">
-//       Is copywriting included in the services you provide?
-//     </h5>
-//     <div className="w-6 absolute top-1/2 -translate-y-1/2 right-0">
-//       <Image src={plus} alt="icon" className="w-6" />
-//     </div>
-//   </div>
-//   {/* body of accordion */}
-//   <div className="">
-//     <p className="text-foreground text-xl font-medium leading-relaxed">
-//       While we don&apos;t offer copywriting as a standalone
-//       service we do prioritize crafting a compelling and
-//       engaging tone and voice based on your brand&apos;s
-//       identity. Needless to say these are defined in Brand
-//       Identity Guidelines providing you with a framework for
-//       future reference and consistency.
-//     </p>
-//   </div>
-// </div>

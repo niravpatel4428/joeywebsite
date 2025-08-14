@@ -3,8 +3,9 @@ import BigText from "./pages/home/bigText";
 import Experties from "./pages/home/experties";
 import Agents from "./pages/home/agents";
 import Hero from "./pages/home/hero";
+import type React = require("react");
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <>
       <Hero />
@@ -19,4 +20,6 @@ export default function Home() {
       /> */}
     </>
   );
-}
+};
+
+export default Home;

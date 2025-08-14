@@ -1,18 +1,23 @@
-import React from "react";
+import React, { FC } from "react";
 import figma from "@/public/img/figma.svg";
 import linear from "@/public/img/linear.svg";
 import slack from "@/public/img/slack.svg";
 import notion from "@/public/img/notion.svg";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-const tools = [
+interface Tool {
+  name: string;
+  icon: StaticImageData;
+}
+
+const tools: Tool[] = [
   { name: "Figma", icon: figma },
   { name: "Slack", icon: slack },
   { name: "Linear", icon: linear },
   { name: "Notion", icon: notion },
 ];
 
-const Choice = () => {
+const Choice: FC = () => {
   return (
     <section className="relative mt-10 md:mt-7 xl:mt-16 mb-10 md:mb-7 lg:mb-12 xl:mb-16">
       <div className="w-full md:max-w-3xl lg:max-w-5xl xl:max-w-1296 px-4 md:px-10 mx-auto">
